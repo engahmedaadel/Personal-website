@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@charset 'utf-8';
+/* CSS Document */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #161616;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+#main {
+  padding: 30px 50px;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+  background-color: #000;
+  background-image: url('../images/personal1.jpg');
+  background-size:500px;
+  background-position: center right;
+  background-repeat: no-repeat;
+ }
+ 
+ nav {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   text-transform: uppercase;
+   font-weight: 600;
+   letter-spacing: 2px;
+   font-family: 'Roboto Condensed', sans-serif;;
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   box-sizing: border-box;
+   padding: 10px 50px;
+   background-color: #f4f7ff;
+   box-shadow: 2px 2px 12px rgba(0,0,0,0.05);
+   z-index: 1;
+}
+.menu {
+  display: flex;
+}
+.menu li a {
+  padding: 10px 15px;
+  color: #6c707c;
+  font-size: 12px;
+}
+.lang {
+  color: #292929;
+}
+.logo {
+  font-size: 25px;
+  font-weight: bold;
+  color: #292929;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.toggle {
+  display: none;
+}
+.active a {
+  background-color: #292929;
+  color: #FFF!important;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: all ease 0.5s;
+  
+}
+.menu li a:hover {
+  background-color: #292929;
+  color: #FFF!important;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: all ease 0.5s;
+}
+.name {
+  font-family: calibri;
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-20%, -50%);
+}
+.name p:nth-child(1), .name .details {
+  color: #fff;
+  font-size: 25px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.name h1 {
+  font-family: Poppins;
+  font-size: 40px;
+  margin: 0px;
+  letter-spacing: 3px;
+  color: #fff;
+}
+.cv-btn {
+  width: 200px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  color: #000;
+  border-radius: 10px;
+}
+
+
+.cv-btn:hover {
+
+  background-color: #292929;
+  transition: all ease 0.5s;
+}
+.black-line {
+ align-self: end;
+ width: 50%;
+ height: 15%;
+ margin-bottom: 4em;
+ position: absolute;
+   bottom: 0px;
+   left: -3%;
+   border-right: 1px solid rgba(41,41,41,0.30);
+}
+
+  
+  
